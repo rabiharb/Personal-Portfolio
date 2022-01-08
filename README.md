@@ -44,7 +44,7 @@
           <img src="my_images/cloud.png" alt="cloud-image" class="top-cloud" />
           <h1>I'm Rabih.</h1>
           <h3>A Web Developer / Designer.</h3>
-          <img src="my_images/mountain.png" class="mount-img" />
+          <img src="my_images/mountain.png" class="mount-img surface" />
           <img
             src="my_images/cloud.png"
             alt=""
