@@ -82,7 +82,6 @@ header {
 }
 .header-cont {
   max-width: 1000px;
-  width: 95%;
   margin: 0 auto;
 }
 #themeBtn {
@@ -97,7 +96,6 @@ header {
   font-size: 4rem;
   color: khaki;
   position: absolute;
-  /* transition: all 1s ease; */
   top: 48%;
   right: 43%;
   z-index: 9;
@@ -136,6 +134,7 @@ nav {
 .logo-cont {
   text-align: left;
   flex-basis: 20%;
+  margin-inline-start: 20px;
 }
 .image-logo {
   display: inline-block;
@@ -444,7 +443,7 @@ footer {
 
 @media (max-width: 396px) {
   html {
-    font-size: 12px;
+    font-size: 13.5px;
   }
   nav {
     flex-direction: column;
@@ -455,10 +454,10 @@ footer {
     margin: 0 20px 0 0;
   }
   .bottom-cloud {
-    left: -100px;
+    left: -120px;
   }
   .top-cloud {
-    right: -100px;
+    right: -120px;
   }
   .key {
     font-weight: 900;
