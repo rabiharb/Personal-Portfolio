@@ -76,10 +76,12 @@ function darkTheme() {
 }
 
 function toggleTheme(element) {
-  mountImage.className = "surface";
   element.classList.add("animate-btn");
+  mountImage.classList.add("surface");
+  mountImage.classList.remove("drown");
   setTimeout(() => {
-    mountImage.className = "drown";
+    mountImage.classList.remove("surface");
+    mountImage.classList.add("drown");
     element.classList.remove("animate-btn");
   }, 800);
   if (
@@ -109,6 +111,7 @@ function setTheme() {
   }
   themeBtn.style.transform = "translateY(0)";
   setTimeout(() => {
-    mountImage.className = "drown";
+    mountImage.classList.remove("surface");
+    mountImage.classList.add("drown");
   }, 500);
 }

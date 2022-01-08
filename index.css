@@ -111,7 +111,7 @@ header {
   position: relative;
 }
 .drown {
-  z-index: 1;
+  z-index: 9;
   position: static;
 }
 .animate-btn {
@@ -215,8 +215,6 @@ nav {
 .mount-img {
   margin: 0 0 -6px;
   max-width: 100%;
-  position: relative;
-  z-index: 9;
 }
 
 /* ---------------------------------------- About ----------------------
