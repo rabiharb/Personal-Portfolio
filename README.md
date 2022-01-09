@@ -105,12 +105,21 @@
             <span class="value">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
             </span>
           </div>
           <div class="skill-item">
             <span class="key">Python</span>
             <span class="value">
               <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+          </div>
+          <div class="skill-item">
+            <span class="key">JQuery</span>
+            <span class="value">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -125,7 +134,22 @@
             </span>
           </div>
           <div class="skill-item">
+            <span class="key">OOP</span>
+            <span class="value">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+          </div>
+          <div class="skill-item">
             <span class="key">Git</span>
+            <span class="value">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+          </div>
+          <div class="skill-item">
+            <span class="key">The CLI</span>
             <span class="value">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
